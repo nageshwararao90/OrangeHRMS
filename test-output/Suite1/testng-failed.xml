@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite1]">
+  <test parallel="none" name="Nopackage(failed)">
+    <classes>
+      <class name="com.hrms.testscripts.TC001_LoginLogout">
+        <methods>
+          <include name="log"/>
+        </methods>
+      </class> <!-- com.hrms.testscripts.TC001_LoginLogout -->
+    </classes>
+  </test> <!-- Nopackage(failed) -->
+  <test parallel="none" name="Regression1(failed)">
+    <classes>
+      <class name="com.hrms.testscripts.TC001_LoginLogout">
+        <methods>
+          <include name="log"/>
+        </methods>
+      </class> <!-- com.hrms.testscripts.TC001_LoginLogout -->
+    </classes>
+  </test> <!-- Regression1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
